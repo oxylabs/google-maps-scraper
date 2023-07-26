@@ -4,7 +4,7 @@ from pprint import pprint
 # Structure payload.
 payload = {
     'source': 'google',
-    'url': 'https://www.google.com/maps/search/Hotels/@40.7709118,-74.0011891,14z/data=!3m1!4b1!4m7!2m6!5m4!5m2!4m1!1i2!9i185!6e3?entry=ttu',
+    'url': 'https://www.google.com/maps/search/restaurants/@40.7660158,-73.9833944,14z/data=!4m5!2m4!5m2!1e0!4e9!6e5?entry=ttu',
     'geo_location': 'New York,New York,United States',
     'render': 'html'
 }
