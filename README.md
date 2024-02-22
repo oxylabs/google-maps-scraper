@@ -86,3 +86,5 @@ From local landmarks to various businesses, with Oxylabs’ Google Maps
 Scraper you’ll easily access the public data you need. If you have any
 questions or need assistance, don’t hesitate to contact our 24/7 support
 team via live chat or [<u>email</u>](mailto:support@oxylabs.io).
+
+Also, check this tutorial on [pypi](https://pypi.org/project/google-maps-scraper-api/)
