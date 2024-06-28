@@ -18,7 +18,7 @@ Our API will return the results in JSON format.
 
 The below code examples demonstrate how you can get Google Maps results.
 First, you need to send the instructions to our service using the
-[<u>Push-Pull</u>](https://developers.oxylabs.io/scraper-apis/getting-started/integration-methods/push-pull)
+[<u>Push-Pull</u>](https://developers.oxylabs.io/scraper-apis/serp-scraper-api/integration-methods/push-pull)
 method:
 
 ```python
