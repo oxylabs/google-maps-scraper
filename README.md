@@ -91,3 +91,6 @@ questions or need assistance, don’t hesitate to contact our 24/7 support
 team via live chat or [<u>email</u>](mailto:support@oxylabs.io).
 
 Also, check this tutorial on [pypi](https://pypi.org/project/google-maps-scraper-api/)
+
+
+https://github.com/oxylabs/google-maps-scraper.git
