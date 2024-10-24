@@ -8,6 +8,7 @@ import click
 
 from google_maps_scraper.collector import GoogleMapsDataCollector
 
+
 logging.basicConfig(level=logging.INFO)
 
 
