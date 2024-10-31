@@ -3,6 +3,66 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
+## Free Google Maps Scraper
+
+### Prerequisites
+
+To run this tool, you need to have Python 3.11 installed in your system.
+
+### Installation
+
+Open up a terminal window, navigate to this repository and run this command:
+
+`make install`
+
+### Getting the URL for the Maps page to scrape
+
+This tool is used to scrape Google Maps results from a given search results page.
+
+First of all, open up Google Maps and enter something to search for in the `Search` field. 
+
+We'll be searching for restaurants in Manhattan, New York.
+
+<img width="1216" alt="image" src="https://github.com/user-attachments/assets/cb49cafb-9d06-41e2-9320-aad209ea8fdf">
+
+After pressing enter, copy and save the URL of the page you landed on. We'll be using it in the scraping tool.
+
+In this example, we'll be using this URL: `https://www.google.com/maps/search/restaurants/@40.7660158,-73.9833944,14z/data=!4m5!2m4!5m2!1e0!4e9!6e5?entry=ttu`
+
+### Scraping 
+
+To scrape Google Maps results from your provided URL, run this command in your terminal:
+`make scrape URL='<url>'`
+
+With the URL we retrieved before, the command should look like this:
+
+`make scrape URL='https://www.google.com/maps/search/restaurants/@40.7660158,-73.9833944,14z/data=!4m5!2m4!5m2!1e0!4e9!6e5?entry=ttu'`
+
+By default, the tool will scrape a small number of results that are visible when you load the page.
+
+To scrape the full results, add `FULL=True` to your command.
+
+The full command should look like this:
+
+`make scrape URL='https://www.google.com/maps/search/restaurants/@40.7660158,-73.9833944,14z/data=!4m5!2m4!5m2!1e0!4e9!6e5?entry=ttu' FULL=True`
+
+Be aware that this will take a bit longer, since the tool will automatically scroll to the bottom of the results list.
+
+After running the command, you should see this in your terminal:
+
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/d94124ac-6601-4680-8436-1b9c00010450">
+
+When the tool has finished running, you should see a file named `locations.csv` in the directory you were running the tool.
+
+If you open the generated CSV file, the data should look something like this:
+
+<img width="622" alt="image" src="https://github.com/user-attachments/assets/24928dd3-d610-4a7a-a5bb-6201522f4280">
+
+### Notes
+
+In case the code doesn't work or your project is of bigger scale, please refer to the second part of the tutorial. There, we showcase how to scrape public data with Oxylabs Scraper API.
+
+## Oxylasb Google Maps Scraper
 
 Google Maps Scraper enables effortless public data extraction with
 geographic references from Google Maps and Google Places. This short
@@ -93,4 +153,3 @@ team via live chat or [<u>email</u>](mailto:support@oxylabs.io).
 Read More Google Scraping Related Repositories: [Google Sheets for Basic Web Scraping](https://github.com/oxylabs/web-scraping-google-sheets), [How to Scrape Google Shopping Results](https://github.com/oxylabs/scrape-google-shopping), [Google Play Scraper](https://github.com/oxylabs/google-play-scraper), [How To Scrape Google Jobs](https://github.com/oxylabs/how-to-scrape-google-jobs), [Google News Scrpaer](https://github.com/oxylabs/google-news-scraper), [How to Scrape Google Scholar](https://github.com/oxylabs/how-to-scrape-google-scholar), [How to Scrape Google Flights with Python](https://github.com/oxylabs/how-to-scrape-google-flights), [How To Scrape Google Images](https://github.com/oxylabs/how-to-scrape-google-images), [Scrape Google Search Results](https://github.com/oxylabs/scrape-google-python), [Scrape Google Trends](https://github.com/oxylabs/how-to-scrape-google-trends)
 
 Also, check this tutorial on [pypi](https://pypi.org/project/google-maps-scraper-api/)
-
