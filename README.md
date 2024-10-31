@@ -3,6 +3,20 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
+- [Google Maps Scraper](#google-maps-scraper)
+  * [Free Google Maps Scraper](#free-google-maps-scraper)
+    + [Prerequisites](#prerequisites)
+    + [Installation](#installation)
+    + [Getting the URL for the Maps page to scrape](#getting-the-url-for-the-maps-page-to-scrape)
+    + [Scraping](#scraping)
+    + [Notes](#notes)
+  * [Oxylabs Google Maps Scraper](#oxylabs-google-maps-scraper)
+  * [How it works](#how-it-works)
+    + [Python code example](#python-code-example)
+    + [Output Example](#output-example)
+      
+In this tutorial, we'll demonstrate how to extract data from Google Maps. In the first part of the tutorial, we'll use a free tool, built for smaller scale scraping. In the second part, we'll show how to use Oxylabs API for more effective, bigger scale scraping (you can get a free trial [here](https://dashboard.oxylabs.io/en/). 
+
 ## Free Google Maps Scraper
 
 ### Prerequisites
@@ -62,7 +76,7 @@ If you open the generated CSV file, the data should look something like this:
 
 In case the code doesn't work or your project is of bigger scale, please refer to the second part of the tutorial. There, we showcase how to scrape public data with Oxylabs Scraper API.
 
-## Oxylasb Google Maps Scraper
+## Oxylabs Google Maps Scraper
 
 Google Maps Scraper enables effortless public data extraction with
 geographic references from Google Maps and Google Places. This short
@@ -152,4 +166,4 @@ team via live chat or [<u>email</u>](mailto:support@oxylabs.io).
 
 Read More Google Scraping Related Repositories: [Google Sheets for Basic Web Scraping](https://github.com/oxylabs/web-scraping-google-sheets), [How to Scrape Google Shopping Results](https://github.com/oxylabs/scrape-google-shopping), [Google Play Scraper](https://github.com/oxylabs/google-play-scraper), [How To Scrape Google Jobs](https://github.com/oxylabs/how-to-scrape-google-jobs), [Google News Scrpaer](https://github.com/oxylabs/google-news-scraper), [How to Scrape Google Scholar](https://github.com/oxylabs/how-to-scrape-google-scholar), [How to Scrape Google Flights with Python](https://github.com/oxylabs/how-to-scrape-google-flights), [How To Scrape Google Images](https://github.com/oxylabs/how-to-scrape-google-images), [Scrape Google Search Results](https://github.com/oxylabs/scrape-google-python), [Scrape Google Trends](https://github.com/oxylabs/how-to-scrape-google-trends)
 
-Also, check this tutorial on [pypi](https://pypi.org/project/google-maps-scraper-api/)
+Also, check this tutorial on [pypi](https://pypi.org/project/google-maps-scraper-api/). 
