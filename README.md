@@ -166,4 +166,16 @@ team via live chat or [<u>email</u>](mailto:support@oxylabs.io).
 
 Read More Google Scraping Related Repositories: [Google Sheets for Basic Web Scraping](https://github.com/oxylabs/web-scraping-google-sheets), [How to Scrape Google Shopping Results](https://github.com/oxylabs/scrape-google-shopping), [Google Play Scraper](https://github.com/oxylabs/google-play-scraper), [How To Scrape Google Jobs](https://github.com/oxylabs/how-to-scrape-google-jobs), [Google News Scrpaer](https://github.com/oxylabs/google-news-scraper), [How to Scrape Google Scholar](https://github.com/oxylabs/how-to-scrape-google-scholar), [How to Scrape Google Flights with Python](https://github.com/oxylabs/how-to-scrape-google-flights), [How To Scrape Google Images](https://github.com/oxylabs/how-to-scrape-google-images), [Scrape Google Search Results](https://github.com/oxylabs/scrape-google-python), [Scrape Google Trends](https://github.com/oxylabs/how-to-scrape-google-trends)
 
-Also, check this tutorial on [pypi](https://pypi.org/project/google-maps-scraper-api/). 
+### Featured in Technical Communities
+We’re excited to see that our content and tools are being referenced by developers and technical writers across platforms!
+
+* [The 15 Best Web Scraping Tools to Explore in 2025](https://medium.com/@marvis.crisco67/the-15-best-web-scraping-tools-152d42198234)
+
+* [10 Best Google Maps Scrapers In 2025](https://medium.com/@david.henry.124/best-google-maps-scrapers-ae2735cdc5fd)
+
+* [How to Scrape Google Flights Data](https://medium.com/@marvis.crisco67/how-to-scrape-google-flights-data-4df30edb1d22)
+
+  ## Contacts
+Email - hello@oxylabs.io 
+
+Drop a message - <br><a href="https://oxylabs.drift.click/oxybot">Live chat</a>
