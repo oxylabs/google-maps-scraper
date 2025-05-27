@@ -175,7 +175,8 @@ We’re excited to see that our content and tools are being referenced by develo
 
 * [How to Scrape Google Flights Data](https://medium.com/@marvis.crisco67/how-to-scrape-google-flights-data-4df30edb1d22)
 
-  ## Contacts
+**Contacts**
+
 Email - hello@oxylabs.io 
 
 Drop a message - <br><a href="https://oxylabs.drift.click/oxybot">Live chat</a>
