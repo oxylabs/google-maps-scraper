@@ -87,6 +87,7 @@ Scraper API.
 
 You can retrieve Google Maps data by providing the URL to our service.
 Our API will return the results in JSON format.
+You can also request Markdown output for an easy-to-read format, simplifying integration into various workflows for AI tools.
 
 ### Python code example
 
